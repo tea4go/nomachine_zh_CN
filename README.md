@@ -4,6 +4,14 @@
 
 > ⭐ 如果这个项目对你有帮助，欢迎点亮右上角的 **Star**，让更多人看到！
 
+## 截图预览
+
+![主页](Snapshot/主页.jpg)
+
+![配置](Snapshot/配置.jpg)
+
+![配置-安全](Snapshot/配置-安全.jpg)
+
 ## 原理
 
 NoMachine 的支持语言列表硬编码在 `nxplayer.bin` 和 `nxrunner.bin` 二进制文件中。本工具将 **Portuguese（葡萄牙语）** 替换为 **Chinese（中文）**，使 NoMachine 能够加载 `zh_CN` 语言文件，从而实现界面中文化。
@@ -24,6 +32,10 @@ nomachine_zh_CN/
 │   ├── nx_patch_chinese.py      # Windows 补丁脚本
 │   ├── nxplayer_zh_CN.qm
 │   └── nxrunner_zh_CN.qm
+├── Snapshot/
+│   ├── 主页.jpg
+│   ├── 配置.jpg
+│   └── 配置-安全.jpg
 ├── .gitignore
 ├── LICENSE
 └── README.md
