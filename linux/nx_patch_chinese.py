@@ -251,7 +251,7 @@ def restore_patches():
 
 
 if __name__ == '__main__':
-    print('NoMachine 中文补丁工具 v1.3 (Linux)')
+    print('NoMachine 中文补丁工具 v1.5 (Linux)')
     print(f'检测到安装路径: {NX_DIR or "未找到"}')
 
     has_arg = len(sys.argv) > 1
