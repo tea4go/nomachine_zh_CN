@@ -54,12 +54,6 @@ sudo python3 nx_patch_chinese.py --install
 
 # 恢复原始文件
 sudo python3 nx_patch_chinese.py --restore
-
-# 停止服务
-sudo python3 nx_patch_chinese.py --stop
-
-# 启动服务
-sudo python3 nx_patch_chinese.py --start
 ```
 
 ### macOS
@@ -73,12 +67,6 @@ sudo python3 nx_patch_chinese.py --install
 
 # 恢复原始文件
 sudo python3 nx_patch_chinese.py --restore
-
-# 停止服务
-sudo python3 nx_patch_chinese.py --stop
-
-# 启动服务
-sudo python3 nx_patch_chinese.py --start
 ```
 
 ### Windows
@@ -94,12 +82,6 @@ python nx_patch_chinese.py --install
 
 # 恢复原始文件
 python nx_patch_chinese.py --restore
-
-# 停止服务
-python nx_patch_chinese.py --stop
-
-# 启动服务
-python nx_patch_chinese.py --start
 ```
 
 ## 补丁做了什么
